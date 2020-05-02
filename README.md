@@ -2,6 +2,11 @@
 
 使用Node.js 和Express 打造蒐集美食清單
 
+
+![image alt](https://github.com/marcho001/My-Restaurant-List/blob/master/public/%E6%88%AA%E5%9C%96%202020-05-02%20%E4%B8%8B%E5%8D%886.55.10.png)
+
+![image alt](https://github.com/marcho001/My-Restaurant-List/blob/master/public/%E6%88%AA%E5%9C%96%202020-05-02%20%E4%B8%8B%E5%8D%887.00.09.png)
+
 ## 安裝
 
 1. 開啟終端機，輸入
