@@ -19,8 +19,9 @@ app.get('/restaurant/:list_id', (req, res) => {
 })
 
 app.get('/search', (req, res) => {
+  const query = req.query.keywords.toUpperCase()
   const keywords = list.results.filter((item) => {
-    return item.name.toUpperCase().includes(req.query.keywords.toUpperCase())
+    return (item.name.toUpperCase().includes(query) || item.name_en.toUpperCase().includes(query))
   })
   res.render('index', { list: keywords })
 })
