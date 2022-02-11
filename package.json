@@ -14,7 +14,7 @@
   "dependencies": {
     "bootstrap-icons": "^1.0.0-alpha3",
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.3",
+    "express-handlebars": "^5.3.1",
     "nodemon": "^2.0.3"
   }
 }
